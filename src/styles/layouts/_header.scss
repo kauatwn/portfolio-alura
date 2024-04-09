@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    width: auto;
+    height: 5.5rem;
+}
+
+.internal-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0 9.5rem;
+    gap: 2rem;
+    font-weight: 500;
+
+    a {
+        color: $dark-gray;
+        text-decoration: none;
+    }
+}
+
+.internal-links li:last-child {
+    font-weight: 700;
+}
