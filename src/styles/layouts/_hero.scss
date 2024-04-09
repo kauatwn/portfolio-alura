@@ -1,0 +1,50 @@
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: 23rem;
+    padding: 0 9.5rem;
+    gap: 1.0625rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: auto;
+    height: 15.375rem;
+    gap: 1.5rem;
+
+    h1 {
+        font-size: 3.25rem;
+        line-height: 3.8125rem;
+    }
+
+    p {
+        font-size: 1.375rem;
+    }
+}
+
+.external-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    height: 1.5rem;
+    gap: 2rem;
+
+    a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        color: $dark-gray;
+        text-decoration: none;
+        gap: 0.25rem;
+        font-weight: 500;
+    }
+}
