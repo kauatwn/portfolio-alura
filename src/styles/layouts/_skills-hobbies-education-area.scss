@@ -1,13 +1,60 @@
 .skills-hobbies-education-area {
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     width: auto;
     height: auto;
-    padding: 0 9.5rem;
     gap: 5.5rem;
 
     h1 {
         font-size: 2rem;
+    }
+}
+
+.hobbies-area,
+.skills-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    gap: 2rem;
+}
+
+.hobbies,
+.skills {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.education-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 36.3125rem;
+    gap: 2rem;
+    background-color: $ligth-blue;
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    h2 {
+        font-size: 1.375rem;
+    }
+
+    p {
+        font-weight: 500;
     }
 }
