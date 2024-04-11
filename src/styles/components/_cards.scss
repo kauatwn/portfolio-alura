@@ -1,9 +1,25 @@
 .skill-card {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
     width: 11rem;
     height: 10.875rem;
     background-color: white;
+}
+
+.skill-item,
+.hobbies-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 1rem 1rem;
+    gap: 0.5rem;
+
+    h2 {
+        font-size: 1rem;
+    }
 }
 
 .education-card {
@@ -12,4 +28,18 @@
     width: 23rem;
     height: 17.875rem;
     background-color: white;
+}
+
+.education-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    h2 {
+        font-size: 1.375rem;
+    }
+
+    p {
+        font-weight: 500;
+    }
 }
