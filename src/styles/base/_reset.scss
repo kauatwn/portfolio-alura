@@ -13,13 +13,4 @@ body {
     background-color: $white;
     font-family: $font-family;
     color: $dark-gray;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
 }

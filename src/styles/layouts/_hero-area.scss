@@ -4,9 +4,14 @@
     justify-content: space-between;
     align-items: center;
     width: auto;
-    height: 23rem;
-    padding: 0 9.5rem;
+    height: auto;
+    padding: 2rem 9.5rem;
     gap: 1.0625rem;
+
+    img {
+        width: 23rem;
+        height: 23rem;
+    }
 }
 
 .intro-text {
@@ -15,7 +20,7 @@
     align-items: flex-start;
     justify-content: center;
     width: auto;
-    height: 15.375rem;
+    height: auto;
     gap: 1.5rem;
 
     h1 {
@@ -34,8 +39,13 @@
     align-items: center;
     justify-content: flex-start;
     width: auto;
-    height: 1.5rem;
+    height: auto;
     gap: 2rem;
+
+    img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 
     a {
         display: flex;
