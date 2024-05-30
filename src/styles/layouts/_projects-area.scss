@@ -4,7 +4,7 @@
     align-items: center;
     width: auto;
     height: auto;
-    padding: 2rem 0;
+    padding: 2rem 0rem;
     gap: 2rem;
 }
 
@@ -29,20 +29,25 @@
             order: 2;
         }
     }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
 
-/* Outra forma 
+// Outra forma
 
-.project-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
+// .project-container {
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     gap: 1rem;
 
-    &:nth-child(even) {
-        flex-direction: row-reverse;
-    }
-} */
+//     &:nth-child(even) {
+//         flex-direction: row-reverse;
+//     }
+// }
 
 .project-info {
     display: flex;
