@@ -22,14 +22,10 @@
     }
 }
 
-.education-card {
+.education-cards-list {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 5.5rem;
-    width: 23rem;
-    height: 17.875rem;
-    background-color: white;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 .education-item {
@@ -44,4 +40,14 @@
     p {
         font-weight: 500;
     }
+}
+
+.education-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 23rem;
+    height: 17.875rem;
+    padding: 0rem 5.5rem;
+    background-color: white;
 }
