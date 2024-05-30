@@ -1,0 +1,22 @@
+@media only screen and (min-width: $tablet-max-width) and (max-width: $desktop-max-width) {
+    .intro-text {
+        gap: 0.5rem;
+
+        h1 {
+            font-size: 1.375rem;
+            line-height: 1.625rem;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.1875rem;
+        }
+    }
+
+    .external-links {
+        img {
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+}

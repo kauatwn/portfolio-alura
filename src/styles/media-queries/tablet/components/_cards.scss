@@ -1,0 +1,22 @@
+@media only screen and (min-width: $tablet-max-width) and (max-width: $desktop-max-width) {
+    .skill-cards-list,
+    .hobby-cards-list {
+        flex-wrap: wrap;
+        align-self: stretch;
+        row-gap: 2rem;
+        column-gap: 1rem;
+    }
+
+    .skill-card {
+        height: 7.375rem;
+        flex-grow: 1; // Permite que os cartões cresçam
+        flex-shrink: 1; // Permite que os cartões encolham
+        flex-basis: 30%; // Define a largura base dos cartões
+    }
+
+    .education-card {
+        width: 14rem;
+        height: 7.375rem;
+        padding: 1.875rem 4.375rem;
+    }
+}

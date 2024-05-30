@@ -1,0 +1,30 @@
+@media only screen and (min-width: $tablet-max-width) and (max-width: $desktop-max-width) {
+    .projects-area {
+        padding: 2rem;
+        gap: 1rem;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: flex-start;
+
+        &:nth-child(even) {
+            .project-info,
+            img {
+                order: unset;
+            }
+        }
+    }
+
+    .project-info {
+        gap: 0.5rem;
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.875rem;
+        }
+    }
+}

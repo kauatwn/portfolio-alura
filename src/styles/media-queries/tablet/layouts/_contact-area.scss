@@ -1,0 +1,13 @@
+@media only screen and (min-width: $tablet-max-width) and (max-width: $desktop-max-width) {
+    .contact-area {
+        padding: 2rem;
+    }
+
+    .contact-container {
+        padding: 0rem;
+
+        img {
+            display: none;
+        }
+    }
+}
