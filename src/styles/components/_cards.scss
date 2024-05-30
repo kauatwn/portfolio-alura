@@ -1,3 +1,10 @@
+.skill-cards-list,
+.hobby-cards-list {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
 .skill-card {
     display: flex;
     flex-direction: column;
