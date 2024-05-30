@@ -1,12 +1,27 @@
 @import "base/variables";
 @import "base/reset";
+
+// Desktop layout imports
 @import "layouts/header";
 @import "layouts/hero-area";
 @import "layouts/about-area";
 @import "layouts/skills-hobbies-education-area";
 @import "layouts/projects-area";
+@import "layouts/contact-area";
 @import "layouts/footer-area";
+
+// Desktop component imports
 @import "components/cards";
 @import "components/forms";
 @import "components/buttons";
-@import "media-queries/tablet";
+
+// Tablet layout imports
+@import "media-queries/tablet/layouts/header";
+@import "media-queries/tablet/layouts/hero-area";
+@import "media-queries/tablet/layouts/about-area";
+@import "media-queries/tablet/layouts/skills-hobbies-education-area";
+@import "media-queries/tablet/layouts/projects-area";
+@import "media-queries/tablet/layouts/contact-area";
+
+// Tablet component imports
+@import "media-queries/tablet/components/cards";
