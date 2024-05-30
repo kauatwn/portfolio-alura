@@ -23,7 +23,6 @@
     .skill-cards-list,
     .hobby-cards-list {
         display: flex;
-        flex-wrap: wrap;
         gap: 1rem;
         justify-content: space-between;
     }
@@ -35,13 +34,8 @@
     align-items: center;
     justify-content: center;
     width: auto;
-    height: 36.3125rem;
+    height: auto;
+    padding: 5.125rem 9.5rem;
     gap: 2rem;
     background-color: $ligth-blue;
-
-    .education-cards-list {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-    }
 }
