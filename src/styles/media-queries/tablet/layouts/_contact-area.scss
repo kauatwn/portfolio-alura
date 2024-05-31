@@ -1,13 +1,24 @@
 @media only screen and (min-width: $tablet-max-width) and (max-width: $desktop-max-width) {
     .contact-area {
+        justify-content: flex-start;
         padding: 2rem;
     }
 
     .contact-container {
+        width: 100%;
         padding: 0rem;
 
         img {
             display: none;
         }
+
+        .contact-info {
+            flex-grow: 1;
+        }
     }
+}
+
+.contact-area {
+    display: flex;
+    flex-direction: row;
 }
