@@ -23,12 +23,9 @@
     }
 
     .education-card-info {
-        display: flex;
-        flex-direction: column;
         flex-grow: 1;
         flex-shrink: 1;
         flex-basis: 30%;
-        gap: 0.5rem;
 
         h2 {
             font-size: 0.875rem;
