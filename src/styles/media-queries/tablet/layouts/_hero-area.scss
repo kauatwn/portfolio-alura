@@ -1,4 +1,13 @@
 @media only screen and (min-width: $tablet-max-width) and (max-width: $desktop-max-width) {
+    .hero-area {
+        padding: 2rem 2rem;
+
+        img {
+            width: 9.125rem;
+            height: 9.125rem;
+        }
+    }
+
     .intro-text {
         gap: 0.5rem;
 
