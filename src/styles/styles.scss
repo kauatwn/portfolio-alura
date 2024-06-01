@@ -25,3 +25,14 @@
 
 // Tablet component imports
 @import "media-queries/tablet/components/cards";
+
+// Mobile layout imports
+@import "media-queries/mobile/layouts/header";
+@import "media-queries/mobile/layouts/hero-area";
+@import "media-queries/mobile/layouts/about-area";
+@import "media-queries/mobile/layouts/skills-hobbies-education-area";
+@import "media-queries/mobile/layouts/projects-area";
+@import "media-queries/mobile/layouts/contact-area";
+
+// Mobile component imports
+@import "media-queries/mobile/components/cards";
