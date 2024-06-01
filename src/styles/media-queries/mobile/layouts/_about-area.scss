@@ -1,0 +1,17 @@
+@media only screen and (min-width: $mobile-max-width) and (max-width: $tablet-max-width) {
+    .about-area {
+        padding: 1rem;
+    }
+
+    .about-text {
+        padding: 0rem;
+
+        h1 {
+            font-size: 1.375rem;
+        }
+
+        p {
+            font-size: 0.875rem;
+        }
+    }
+}

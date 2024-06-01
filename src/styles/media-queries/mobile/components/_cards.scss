@@ -1,0 +1,55 @@
+@media only screen and (min-width: $mobile-max-width) and (max-width: $tablet-max-width) {
+    .skill-cards-list,
+    .hobby-cards-list {
+        flex-wrap: wrap;
+        align-self: stretch;
+        // Outra forma para substituir `align-self: stretch;`:
+        // width: 100%;
+        row-gap: 2rem;
+        column-gap: 1rem;
+        justify-content: unset;
+    }
+
+    .skill-card {
+        width: auto;
+        height: 7.375rem;
+        flex-grow: 1;
+        flex-basis: 32%;
+    }
+
+    .education-cards-list {
+        flex-wrap: wrap;
+        align-self: stretch;
+        // Outra forma de fazer
+        // flex-direction: column;
+        // width: 100%;
+    }
+
+    .education-card-info {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 100%;
+
+        h2 {
+            font-size: 1rem;
+        }
+
+        p {
+            font-size: 0.875rem;
+        }
+    }
+
+    .education-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        height: 7.375rem;
+        padding: 1.75rem 6rem;
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+}
