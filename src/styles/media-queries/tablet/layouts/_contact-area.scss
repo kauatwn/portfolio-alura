@@ -16,9 +16,12 @@
             flex-grow: 1;
         }
     }
-}
 
-.contact-area {
-    display: flex;
-    flex-direction: row;
+    .contact-text {
+        gap: 0.5rem;
+
+        h1 {
+            font-size: 1.375rem;
+        }
+    }
 }
