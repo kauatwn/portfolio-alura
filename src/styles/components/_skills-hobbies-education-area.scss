@@ -1,0 +1,96 @@
+@use "../base/variables";
+
+.skills-hobbies-education-area {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  padding: 2rem 0;
+  gap: 5.5rem;
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+.skills-area,
+.hobbies-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  height: auto;
+  gap: 2rem;
+}
+
+.education-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 5.125rem 9.5rem;
+  gap: 2rem;
+  background-color: variables.$ligth-blue;
+}
+
+// Tablet
+@media only screen and (min-width: variables.$tablet-max-width) and (max-width: variables.$desktop-max-width) {
+  .skills-hobbies-education-area {
+    padding: 0rem;
+    gap: 0rem;
+  }
+
+  .skills-area,
+  .hobbies-area {
+    padding: 2rem 2rem;
+
+    h1 {
+      font-size: 1.375rem;
+    }
+  }
+
+  .education-area {
+    padding: 2rem;
+
+    h1 {
+      font-size: 1.375rem;
+    }
+  }
+
+  .education-item {
+    h2 {
+      font-size: 1rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+    }
+  }
+}
+
+// Mobile
+@media only screen and (min-width: variables.$mobile-max-width) and (max-width: variables.$tablet-max-width) {
+  .skills-hobbies-education-area {
+    padding: 0rem;
+    gap: 0rem;
+  }
+
+  .skills-area,
+  .hobbies-area {
+    padding: 1rem;
+
+    h1 {
+      font-size: 1.375rem;
+    }
+  }
+
+  .education-area {
+    padding: 2rem;
+
+    h1 {
+      font-size: 1.375rem;
+    }
+  }
+}
