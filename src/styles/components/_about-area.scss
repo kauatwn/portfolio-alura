@@ -1,0 +1,71 @@
+@use "../base/variables";
+
+.about-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding: 4rem 9.5rem;
+  background-color: variables.$ligth-blue;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  padding-right: 24.0625rem;
+  gap: 1rem;
+
+  h1 {
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+
+  p {
+    font-size: 1rem;
+    line-height: 1.1875rem;
+  }
+}
+
+// Tablet
+@media only screen and (min-width: variables.$tablet-max-width) and (max-width: variables.$desktop-max-width) {
+  .about-area {
+    padding: 2rem;
+  }
+
+  .about-text {
+    padding: 0rem;
+
+    h1 {
+      font-size: 1.375rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+    }
+  }
+}
+
+// Mobile
+@media only screen and (min-width: variables.$mobile-max-width) and (max-width: variables.$tablet-max-width) {
+  .about-area {
+    padding: 1rem;
+  }
+
+  .about-text {
+    padding: 0rem;
+
+    h1 {
+      font-size: 1.375rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+    }
+  }
+}
