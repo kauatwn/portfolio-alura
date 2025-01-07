@@ -1,0 +1,86 @@
+@use "../base/variables";
+
+header {
+  width: auto;
+  height: auto;
+  padding: 2rem 9.5rem;
+  top: 0;
+  position: sticky;
+  background-color: variables.$white;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease;
+}
+
+header:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+
+  span {
+    font-weight: 700;
+  }
+}
+
+.internal-links {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 2rem;
+  font-weight: 500;
+
+  a {
+    color: variables.$dark-gray;
+    text-decoration: none;
+  }
+}
+
+.internal-links li:last-child {
+  font-weight: 700;
+}
+
+// Tablet
+@media only screen and (min-width: variables.$tablet-max-width) and (max-width: variables.$desktop-max-width) {
+  header {
+    padding: 1rem 2rem;
+
+    .internal-links {
+      li {
+        display: none;
+
+        &:last-child {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+// Mobile
+@media only screen and (min-width: variables.$mobile-max-width) and (max-width: variables.$tablet-max-width) {
+  header {
+    padding: 1rem;
+
+    .internal-links {
+      li {
+        display: none;
+
+        &:last-child {
+          display: block;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
