@@ -1,16 +1,18 @@
+@use "./variables";
+
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 15%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 15%;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: $white;
-    font-family: $font-family;
-    color: $dark-gray;
+  background-color: variables.$white;
+  font-family: variables.$font-family;
+  color: variables.$dark-gray;
 }

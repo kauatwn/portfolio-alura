@@ -1,29 +1,31 @@
+@use "../base/variables";
+
 .btn {
-    width: fit-content;
-    height: fit-content;
-    padding: 1rem;
-    border: none;
-    color: white;
-    font-size: 1rem;
-    font-family: $font-family;
-    font-weight: 600;
-    border: 1px solid #2a7ae4;
-    cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  padding: 1rem;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  font-family: variables.$font-family;
+  font-weight: 600;
+  border: 1px solid #2a7ae4;
+  cursor: pointer;
 }
 
 .btn-primary {
-    background-color: #2a7ae4;
+  background-color: #2a7ae4;
 
-    &:hover {
-        background-color: #5595e9;
-    }
+  &:hover {
+    background-color: #5595e9;
+  }
 }
 
 .btn-secondary {
-    background-color: transparent;
-    color: #2a7ae4;
+  background-color: transparent;
+  color: #2a7ae4;
 
-    &:hover {
-        background-color: #d4e4fa;
-    }
+  &:hover {
+    background-color: #d4e4fa;
+  }
 }
