@@ -1,4 +1,4 @@
-## Challenge Portfólio
+# Challenge Portfólio
 
 <p align="center">
   <img src="./images/Badge-Portfolio.png" alt="Insígnia Portfólio Oracle Next Education" width="300">
@@ -43,13 +43,12 @@ Desafio proposto pelo programa ONE é um projeto voltado para a criação de um 
    npm install
    ```
 
-3. Instale a extensão **Live Sass Compiler** oferecida por Glenn Marks.
+3. Instale a extensão **Live Server** oferecida por Ritwick Dey.
 
-4. Instale a extensão **Live Server** oferecida por Ritwick Dey.
+4. Execute o comando para compilar o SASS automaticamente:
 
-5. No Visual Studio Code, clique nos botões `Watch Sass` e `Go Live` no canto inferior direito.
+   ```bash
+   npm run sass:watch
+   ```
 
-### Explicações Adicionais
-
-- **Watch Sass**: Compila automaticamente o SCSS e aplica as estilizações sempre que houver alterações nos arquivos SCSS.
-- **Go Live**: Inicia um servidor local e abre a aplicação no navegador, permitindo ver as alterações em tempo real.
+5. No Visual Studio Code, clique no botão `Go Live` no canto inferior direito.
