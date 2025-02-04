@@ -25,9 +25,9 @@ Desafio proposto pelo programa ONE é um projeto voltado para a criação de um 
 
 ### Requisitos
 
-- Git
-- Node.js
-- Visual Studio Code
+- [Git](https://git-scm.com/downloads)
+- [Node.js](https://nodejs.org/en/download)
+- [Visual Studio Code](https://code.visualstudio.com/download)
 
 ### Instalação
 
@@ -43,7 +43,7 @@ Desafio proposto pelo programa ONE é um projeto voltado para a criação de um 
    npm install
    ```
 
-3. Instale a extensão **Live Server** oferecida por Ritwick Dey.
+3. Instale a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) oferecida por Ritwick Dey.
 
 4. Execute o comando para compilar o SASS automaticamente:
 
