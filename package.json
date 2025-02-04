@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Desafio proposto pelo programa ONE é um projeto voltado para a criação de um portfólio.",
   "scripts": {
-    "sass:watch": "npx sass --watch src/styles/styles.scss:src/styles/styles.css"
+    "sass:watch": "sass --watch src/styles/styles.scss:src/styles/styles.css"
   },
   "author": "Kauã Lima",
   "devDependencies": {
-    "sass": "^1.83.1"
+    "sass": "^1.83.4"
   }
 }
