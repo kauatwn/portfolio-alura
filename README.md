@@ -1,5 +1,6 @@
 # Challenge Portfólio
 
+<!-- markdownlint-disable MD033 -->
 <p align="center">
   <img src="./images/Badge-Portfolio.png" alt="Insígnia Portfólio Oracle Next Education" width="300">
 </p>
@@ -48,7 +49,7 @@ Desafio proposto pelo programa ONE é um projeto voltado para a criação de um 
 4. Execute o comando para compilar o SASS automaticamente:
 
    ```bash
-   npm run sass:watch
+   npm start
    ```
 
 5. No Visual Studio Code, clique no botão `Go Live` no canto inferior direito.
